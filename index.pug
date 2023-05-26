@@ -1,0 +1,177 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css')
+  link(rel='stylesheet' href='../assets/css/styles.css')
+  title Responsive website delivery
+// =============== HEADER ===============
+header#header.header
+  nav.nav.container
+    a.nav__logo(href='#') Delivery
+    #nav-menu.nav__menu
+      ul.nav__list
+        li.nav__item
+          a.nav__link.active-link(href='#home') Home
+        li.nav__item
+          a.nav__link(href='#about') About us
+        li.nav__item
+          a.nav__link(href='#services') Services
+        li.nav__item
+          a.nav__link(href='#contact') Contact us
+    #nav-toggle.nav__toggle
+      i.bx.bx-grid-alt
+    a.button.button__header(href='#') Order Now!
+main.main
+  // =============== HOME ===============
+  section#home.home.section
+    .home__container.container.grid
+      img.svg__img.svg__color.home__img(src='../assets/img/home-ilustration.svg' alt='')
+      .home__data
+        h1.home__title
+          | Order Products 
+          br
+          |  Faster Easier
+        p.home__description
+          | Order your favorite foods at any time and we will deliver them right to where you are.
+        a.button(href='#') Get Started
+  // =============== ABOUT ===============
+  section#about.about.section.container
+    .about__container.grid
+      .about__data
+        h2.section__title-center
+          | Find Out A Little More 
+          br
+          |  About Us
+        p.about__description
+          | We are a company dedicated to the distribution of products by delivery
+          | to your home or to the place where you are, with the best quality of delivery.
+      img.svg__img.svg__color.about__img(src='../assets/img/about-ilustration.svg' alt='')
+  // =============== SECURITY ===============
+  section.security.section.container
+    .security__container.grid
+      .security__data
+        h2.section__title-center
+          | Your Safety Is 
+          br
+          |  Important
+        p.security__description
+          | When your order reaches you, we have the health safety protocols,
+          | so that you are protected from any disease. Watch the video of how the delivery is made.
+      img.svg__img.svg__color(src='../assets/img/security-ilustration.svg' alt='')
+  // =============== SERVICES ===============
+  section#services.services.section.container
+    h2.section__title
+      | Some Services We 
+      br
+      |  Offer
+    .services__container.grid
+      .services__data
+        h3.services__subtitle Payment Done
+        img.svg__color.services__img(src='../assets/img/services1-ilustration.svg' alt='')
+        p.services__description Pay with a BHIM UPI or Credit Card and chance to get the offer right now!!
+        div
+          a.button.button-link(href='#') Learn More
+      .services__data
+        h3.services__subtitle Find Your Product
+        img.svg__color.services__img(src='../assets/img/services2-ilustration.svg' alt='')
+        p.services__description We offer sale of products through the Internet.
+        div
+          a.button.button-link(href='#') Learn More
+      .services__data
+        h3.services__subtitle Product Received
+        img.svg__color.services__img(src='../assets/img/services3-ilustration.svg' alt='')
+        p.services__description In our app you can see the delay time of your order.
+        div
+          a.button.button-link(href='#') Learn More
+  // =============== APP ===============
+  section.app.section.container
+    .app__container.grid
+      .app__data
+        h2.section__title-center
+          | Watch Your Delivery 
+          br
+          |  At Any Time
+        p.app__description
+          | With our app you can view the location of your order, from our local headquarters to the
+          | place where you are. Look for the app now!
+        .app__buttons
+          a.button.button-flex(href='#')
+            i.bx.bxl-apple.button__icon
+            |  App Store
+          a.button.button-flex(href='#')
+            i.bx.bxl-play-store.button__icon
+            |  Google Play
+      img.svg__img.svg__color.app__img(src='../assets/img/app-ilustration.svg' alt='')
+  // =============== CONTACT US ===============
+  section#contact.contact.section.container
+    .contact__container.grid
+      .contact__content
+        h2.section__title-center
+          | Contact Us From 
+          br
+          |  Here
+        p.contact__description
+          | You can contact us from here, you can write to us,
+          | call us or visit our service center, we will assist you.
+      ul.contact__content.grid
+        li.contact__address
+          | Telephone: 
+          span.contact__information +91-7389546668
+        li.contact__address
+          | Email:  
+          span.contact__information delivery@gmail.com
+        li.contact__address
+          | Location: 
+          span.contact__information Baner, Pune
+      .contact__content
+        a.button(href='#') Contact Us
+// =============== FOOTER ===============
+footer.footer.section
+  .footer__container.container.grid
+    .footer__content
+      a.footer__logo(href='#') Delivery
+      p.footer__description
+        | Order Products Faster 
+        br
+        |  Easier
+    .footer__content
+      h3.footer__title Our Services
+      ul.footer__links
+        li
+          a.footer__link(href='#') Pricing 
+        li
+          a.footer__link(href='#') Discounts
+        li
+          a.footer__link(href='#') Report a bug
+        li
+          a.footer__link(href='#') Terms of Service
+    .footer__content
+      h3.footer__title Our Company
+      ul.footer__links
+        li
+          a.footer__link(href='#') Blog
+        li
+          a.footer__link(href='#') Our mision
+        li
+          a.footer__link(href='#') Get in touch
+    .footer__content
+      h3.footer__title Community
+      ul.footer__links
+        li
+          a.footer__link(href='#') Support
+        li
+          a.footer__link(href='#') Questions
+        li
+          a.footer__link(href='#') Customer help
+    .footer__social
+      a.footer__social-link(href='#')
+        i.bx.bxl-facebook-circle
+      a.footer__social-link(href='#')
+        i.bx.bxl-twitter
+      a.footer__social-link(href='#')
+        i.bx.bxl-instagram-alt
+  p.footer__copy &copy; Delivery. All right reserved
+a#scroll-up.scrollup(href='#')
+  i.bx.bx-up-arrow-alt.scrollup__icon
+script(src='../assets/js/main.js')
