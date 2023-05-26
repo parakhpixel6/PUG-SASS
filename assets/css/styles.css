@@ -365,12 +365,10 @@ img {
   color: var(--title-color);
 }
 
-/* Show Scroll Up*/
 .show-scroll {
   bottom: 3rem;
 }
 
-/*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: 0.6rem;
   border-radius: 0.5rem;
